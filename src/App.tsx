@@ -1,8 +1,11 @@
 import './App.css'
 import Text from '@shared/Text'
 import Button from './components/shared/Button'
+import { useAlertContext } from './contexts/AlertContext'
 
 function App() {
+  const { open } = useAlertContext()
+
   return (
     <div>
       <Text typography="t1" display="block" color="red">
@@ -29,6 +32,20 @@ function App() {
       <Button full={true}>클릭해주세요</Button>
       <Button full={true} disabled={true}>
         클릭해주세요
+      </Button>
+
+      <Button
+        onClick={() => {
+          open({
+            title: '카드신청완료',
+            description: '내역페이지에서 확인해주세요',
+            onButtonClick: () => {
+              //
+            },
+          })
+        }}
+      >
+        Alert오픈
       </Button>
     </div>
   )
