@@ -6,6 +6,7 @@ import path from 'path'
 export default defineConfig({
   plugins: [react()],
   esbuild: {
+    jsxImportSource: '@emotion/react',
     jsxFactory: '_jsx',
     jsxFragment: '_jsxFragment',
     jsxInject: `import { jsx as _jsx, jsxs as _jsxs, Fragment as _jsxFragment } from 'react/jsx-runtime'`,
@@ -19,6 +20,7 @@ export default defineConfig({
       '@shared': path.resolve(__dirname, 'src/components/shared'),
       '@models': path.resolve(__dirname, 'src/models'),
       '@pages': path.resolve(__dirname, 'src/pages'),
+      '@constants': path.resolve(__dirname, 'src/constants'),
     },
   },
 })

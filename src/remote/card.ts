@@ -1,14 +1,14 @@
 import {
   collection,
-  getDocs,
+  getDocs, // 전체 문서를 가져온다.
   QuerySnapshot,
   query,
   limit,
   startAfter,
 } from 'firebase/firestore'
-import { store } from './firebase'
+import { store } from './firebase' // 실제 서비스의 스토어
 
-import { COLLECTIONS } from '../constants'
+import { COLLECTIONS } from '@constants'
 import { Card } from '@models/card'
 
 // pageParam 지금 보이고있는 맨 마지막요소

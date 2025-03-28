@@ -10,12 +10,13 @@
     "checkJs": false,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src"],
+      "@/*": ["src/*"],
       "@components/*": ["src/components/*"],
       "@styles/*": ["src/styles/*"],
       "@shared/*": ["src/components/shared/*"],
       "@models/*": ["src/models/*"],
-      "@pages/*": ["src/pages/*"]
+      "@pages/*": ["src/pages/*"],
+      "@constants": ["src/constants"]
     }
   }
 }

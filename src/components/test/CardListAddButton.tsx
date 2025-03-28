@@ -2,8 +2,8 @@ import Button from '@shared/Button'
 import { collection, doc, writeBatch } from 'firebase/firestore'
 
 import { store } from '../../remote/firebase'
+import { COLLECTIONS } from '@constants'
 import { card_list } from '@/mock/data'
-import { COLLECTIONS } from '@/constants'
 
 function CardListAddButton() {
   const handleButtonClick = async () => {
