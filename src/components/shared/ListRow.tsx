@@ -8,6 +8,7 @@ interface ListRowProps {
   right?: React.ReactNode
   withArrow?: boolean
   onClick?: () => void
+  as?: 'div' | 'li'
 }
 
 function ListRow({ left, contents, right, withArrow, onClick }: ListRowProps) {

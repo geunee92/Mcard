@@ -1,4 +1,4 @@
-import { css } from '@emotion/react'
+import { css, SerializedStyles } from '@emotion/react'
 import styled from '@emotion/styled'
 import {
   ButtonColor,
@@ -14,6 +14,7 @@ interface ButtonProps {
   weak?: boolean
   full?: boolean
   disabled?: boolean
+  css?: SerializedStyles
 }
 
 const Button = styled.button<ButtonProps>(
