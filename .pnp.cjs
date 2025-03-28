@@ -34,6 +34,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:22.13.10"],\
           ["@types/react", "npm:19.0.10"],\
           ["@types/react-dom", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:19.0.4"],\
+          ["@types/validator", "npm:13.12.3"],\
           ["@vitejs/plugin-react", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:4.3.4"],\
           ["eslint", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:9.22.0"],\
           ["eslint-config-prettier", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:10.1.1"],\
@@ -54,6 +55,7 @@ const RAW_RUNTIME_STATE =
           ["swiper", "npm:9.4.1"],\
           ["typescript", "patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"],\
           ["typescript-eslint", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:8.26.1"],\
+          ["validator", "npm:13.15.0"],\
           ["vite", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:6.2.2"],\
           ["vite-tsconfig-paths", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:5.1.4"]\
         ],\
@@ -2565,6 +2567,15 @@ const RAW_RUNTIME_STATE =
         ],\
         "packagePeers": [\
           "@types/react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/validator", [\
+      ["npm:13.12.3", {\
+        "packageLocation": "../../.yarn/berry/cache/@types-validator-npm-13.12.3-d92cab3d08-10c0.zip/node_modules/@types/validator/",\
+        "packageDependencies": [\
+          ["@types/validator", "npm:13.12.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5216,6 +5227,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:22.13.10"],\
           ["@types/react", "npm:19.0.10"],\
           ["@types/react-dom", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:19.0.4"],\
+          ["@types/validator", "npm:13.12.3"],\
           ["@vitejs/plugin-react", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:4.3.4"],\
           ["eslint", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:9.22.0"],\
           ["eslint-config-prettier", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:10.1.1"],\
@@ -5236,6 +5248,7 @@ const RAW_RUNTIME_STATE =
           ["swiper", "npm:9.4.1"],\
           ["typescript", "patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"],\
           ["typescript-eslint", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:8.26.1"],\
+          ["validator", "npm:13.15.0"],\
           ["vite", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:6.2.2"],\
           ["vite-tsconfig-paths", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:5.1.4"]\
         ],\
@@ -6936,6 +6949,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["uri-js", "npm:4.4.1"],\
           ["punycode", "npm:2.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["validator", [\
+      ["npm:13.15.0", {\
+        "packageLocation": "../../.yarn/berry/cache/validator-npm-13.15.0-b048a51909-10c0.zip/node_modules/validator/",\
+        "packageDependencies": [\
+          ["validator", "npm:13.15.0"]\
         ],\
         "linkType": "HARD"\
       }]\
