@@ -45,6 +45,7 @@ const RAW_RUNTIME_STATE =
           ["firebase", "npm:11.4.0"],\
           ["framer-motion", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:12.6.2"],\
           ["globals", "npm:15.15.0"],\
+          ["jotai", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:2.12.2"],\
           ["lodash", "npm:4.17.21"],\
           ["prettier", "npm:3.5.3"],\
           ["react", "npm:19.0.0"],\
@@ -4968,6 +4969,28 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["jotai", [\
+      ["npm:2.12.2", {\
+        "packageLocation": "../../.yarn/berry/cache/jotai-npm-2.12.2-2169671569-10c0.zip/node_modules/jotai/",\
+        "packageDependencies": [\
+          ["jotai", "npm:2.12.2"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:2.12.2", {\
+        "packageLocation": "./.yarn/__virtual__/jotai-virtual-36ab911169/3/.yarn/berry/cache/jotai-npm-2.12.2-2169671569-10c0.zip/node_modules/jotai/",\
+        "packageDependencies": [\
+          ["jotai", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:2.12.2"],\
+          ["@types/react", "npm:19.0.10"],\
+          ["react", "npm:19.0.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["js-sha3", [\
       ["npm:0.8.0", {\
         "packageLocation": "../../.yarn/berry/cache/js-sha3-npm-0.8.0-decf3ddcfa-10c0.zip/node_modules/js-sha3/",\
@@ -5238,6 +5261,7 @@ const RAW_RUNTIME_STATE =
           ["firebase", "npm:11.4.0"],\
           ["framer-motion", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:12.6.2"],\
           ["globals", "npm:15.15.0"],\
+          ["jotai", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:2.12.2"],\
           ["lodash", "npm:4.17.21"],\
           ["prettier", "npm:3.5.3"],\
           ["react", "npm:19.0.0"],\

@@ -24,8 +24,6 @@ function SignupPage() {
     }
 
     await setDoc(doc(collection(store, COLLECTIONS.USER), user.uid), newUser)
-
-    // TODO: 로그인
   }
   return (
     <div>
