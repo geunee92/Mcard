@@ -28,15 +28,19 @@ function Card() {
   })
 
   const moveToApply = useCallback(() => {
-    if (user === null) {
+    if (user == null) {
       open({
         title: '로그인이 필요한 기능입니다.',
         onButtonClick: () => {
-          navigate(`/apply/${id}`)
+          navigate(`/signin`)
         },
       })
+
+      return
     }
-  }, [id, navigate, open, user])
+
+    navigate(`/apply/${id}`)
+  }, [user, id, open, navigate])
 
   if (data == null) {
     return null
