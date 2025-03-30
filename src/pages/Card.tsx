@@ -8,14 +8,35 @@ import { css } from '@emotion/react'
 import { motion } from 'framer-motion'
 
 import { useQuery } from 'react-query'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
+import { useAtomValue } from 'jotai'
+import { userAtom } from '@/atoms/user'
+import { useAlertContext } from '@/contexts/AlertContext'
+import { useCallback } from 'react'
 
 function Card() {
   const { id = '' } = useParams()
 
+  const { open } = useAlertContext()
+
+  const navigate = useNavigate()
+
+  const user = useAtomValue(userAtom)
+
   const { data } = useQuery(['card', id], () => getCard(id), {
     enabled: id !== '',
   })
+
+  const moveToApply = useCallback(() => {
+    if (user === null) {
+      open({
+        title: '로그인이 필요한 기능입니다.',
+        onButtonClick: () => {
+          navigate(`/apply/${id}`)
+        },
+      })
+    }
+  }, [id, navigate, open, user])
 
   if (data == null) {
     return null
@@ -68,7 +89,7 @@ function Card() {
         </Flex>
       ) : null}
 
-      <FixedBottomButton label="신청하기" onClick={() => {}} />
+      <FixedBottomButton label="신청하기" onClick={moveToApply} />
     </div>
   )
 }
