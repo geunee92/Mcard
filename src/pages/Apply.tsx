@@ -11,11 +11,17 @@ function ApplyPage() {
     console.log('terms', terms)
   }
 
+  const handleBasicInfoChange = (
+    infoValues: Pick<ApplyValues, 'salary' | 'payDate' | 'creditScore'>,
+  ) => {
+    console.log('infoValues', infoValues)
+  }
+
   return (
     <div>
       {step === 0 ? <Terms onNext={handleTermsChange} /> : null}
 
-      {step === 1 ? <BasicInfo /> : null}
+      {step === 1 ? <BasicInfo onNext={handleBasicInfoChange} /> : null}
 
       {step === 2 ? <CardInfo /> : null}
     </div>
