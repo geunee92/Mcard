@@ -39,6 +39,7 @@ function BasicInfo({ onNext }: { onNext: (infoValues: InfoValues) => void }) {
         value={infoValues.salary}
         onChange={handleInfoChange}
       />
+
       <Select
         name="creditScore"
         label="신용점수"
@@ -46,6 +47,7 @@ function BasicInfo({ onNext }: { onNext: (infoValues: InfoValues) => void }) {
         value={infoValues.creditScore}
         onChange={handleInfoChange}
       />
+
       <Select
         name="payDate"
         label="결제일"
