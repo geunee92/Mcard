@@ -32,6 +32,7 @@ const RAW_RUNTIME_STATE =
           ["@eslint/js", "npm:9.22.0"],\
           ["@types/lodash", "npm:4.17.16"],\
           ["@types/node", "npm:22.13.10"],\
+          ["@types/qs", "npm:6.9.18"],\
           ["@types/react", "npm:19.0.10"],\
           ["@types/react-dom", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:19.0.4"],\
           ["@types/validator", "npm:13.12.3"],\
@@ -48,6 +49,7 @@ const RAW_RUNTIME_STATE =
           ["jotai", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:2.12.2"],\
           ["lodash", "npm:4.17.21"],\
           ["prettier", "npm:3.5.3"],\
+          ["qs", "npm:6.14.0"],\
           ["react", "npm:19.0.0"],\
           ["react-dom", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:19.0.0"],\
           ["react-infinite-scroll-component", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:6.1.0"],\
@@ -2538,6 +2540,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/@types-parse-json-npm-4.0.2-f87f65692e-10c0.zip/node_modules/@types/parse-json/",\
         "packageDependencies": [\
           ["@types/parse-json", "npm:4.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/qs", [\
+      ["npm:6.9.18", {\
+        "packageLocation": "../../.yarn/berry/cache/@types-qs-npm-6.9.18-125db28c30-10c0.zip/node_modules/@types/qs/",\
+        "packageDependencies": [\
+          ["@types/qs", "npm:6.9.18"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5248,6 +5259,7 @@ const RAW_RUNTIME_STATE =
           ["@eslint/js", "npm:9.22.0"],\
           ["@types/lodash", "npm:4.17.16"],\
           ["@types/node", "npm:22.13.10"],\
+          ["@types/qs", "npm:6.9.18"],\
           ["@types/react", "npm:19.0.10"],\
           ["@types/react-dom", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:19.0.4"],\
           ["@types/validator", "npm:13.12.3"],\
@@ -5264,6 +5276,7 @@ const RAW_RUNTIME_STATE =
           ["jotai", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:2.12.2"],\
           ["lodash", "npm:4.17.21"],\
           ["prettier", "npm:3.5.3"],\
+          ["qs", "npm:6.14.0"],\
           ["react", "npm:19.0.0"],\
           ["react-dom", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:19.0.0"],\
           ["react-infinite-scroll-component", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:6.1.0"],\
@@ -5888,6 +5901,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/punycode-npm-2.3.1-97543c420d-10c0.zip/node_modules/punycode/",\
         "packageDependencies": [\
           ["punycode", "npm:2.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["qs", [\
+      ["npm:6.14.0", {\
+        "packageLocation": "../../.yarn/berry/cache/qs-npm-6.14.0-6b298311eb-10c0.zip/node_modules/qs/",\
+        "packageDependencies": [\
+          ["qs", "npm:6.14.0"],\
+          ["side-channel", "npm:1.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\

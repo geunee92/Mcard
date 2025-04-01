@@ -1,3 +1,4 @@
+import { APPLY_STATUS } from '@/constants/apply'
 import { User } from './user'
 
 export interface Term {
@@ -17,6 +18,7 @@ export interface ApplyValues {
   isMaster: boolean
   isHipass: boolean
   isRf: boolean
+  status: keyof typeof APPLY_STATUS
 }
 
 export interface Option {

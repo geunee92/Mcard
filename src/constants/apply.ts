@@ -27,3 +27,10 @@ export const PAYMENT_DAY_OPTIONS = [
   { label: '1일', value: '1일' },
   { label: '25일', value: '25일' },
 ] as Option[]
+
+export const APPLY_STATUS = {
+  REDAY: 'REDAY',
+  PROGRESS: 'PROGRESS',
+  COMPLETE: 'COMPLETE',
+  REJECT: 'REJECT',
+} as const
