@@ -30,7 +30,7 @@ const RAW_RUNTIME_STATE =
           ["@emotion/react", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:11.14.0"],\
           ["@emotion/styled", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:11.14.0"],\
           ["@eslint/js", "npm:9.22.0"],\
-          ["@types/lodash", "npm:4.17.16"],\
+          ["@types/lodash.flatten", "npm:4.4.9"],\
           ["@types/node", "npm:22.13.10"],\
           ["@types/qs", "npm:6.9.18"],\
           ["@types/react", "npm:19.0.10"],\
@@ -47,7 +47,7 @@ const RAW_RUNTIME_STATE =
           ["framer-motion", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:12.6.2"],\
           ["globals", "npm:15.15.0"],\
           ["jotai", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:2.12.2"],\
-          ["lodash", "npm:4.17.21"],\
+          ["lodash.flatten", "npm:4.4.0"],\
           ["prettier", "npm:3.5.3"],\
           ["qs", "npm:6.14.0"],\
           ["react", "npm:19.0.0"],\
@@ -2521,6 +2521,16 @@ const RAW_RUNTIME_STATE =
       ["npm:4.17.16", {\
         "packageLocation": "../../.yarn/berry/cache/@types-lodash-npm-4.17.16-edc964ca5b-10c0.zip/node_modules/@types/lodash/",\
         "packageDependencies": [\
+          ["@types/lodash", "npm:4.17.16"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/lodash.flatten", [\
+      ["npm:4.4.9", {\
+        "packageLocation": "../../.yarn/berry/cache/@types-lodash.flatten-npm-4.4.9-33ad4adccf-10c0.zip/node_modules/@types/lodash.flatten/",\
+        "packageDependencies": [\
+          ["@types/lodash.flatten", "npm:4.4.9"],\
           ["@types/lodash", "npm:4.17.16"]\
         ],\
         "linkType": "HARD"\
@@ -5175,20 +5185,20 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["lodash", [\
-      ["npm:4.17.21", {\
-        "packageLocation": "../../.yarn/berry/cache/lodash-npm-4.17.21-6382451519-10c0.zip/node_modules/lodash/",\
-        "packageDependencies": [\
-          ["lodash", "npm:4.17.21"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["lodash.camelcase", [\
       ["npm:4.3.0", {\
         "packageLocation": "../../.yarn/berry/cache/lodash.camelcase-npm-4.3.0-bf268e3bf0-10c0.zip/node_modules/lodash.camelcase/",\
         "packageDependencies": [\
           ["lodash.camelcase", "npm:4.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lodash.flatten", [\
+      ["npm:4.4.0", {\
+        "packageLocation": "../../.yarn/berry/cache/lodash.flatten-npm-4.4.0-495935e617-10c0.zip/node_modules/lodash.flatten/",\
+        "packageDependencies": [\
+          ["lodash.flatten", "npm:4.4.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5286,7 +5296,7 @@ const RAW_RUNTIME_STATE =
           ["@emotion/react", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:11.14.0"],\
           ["@emotion/styled", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:11.14.0"],\
           ["@eslint/js", "npm:9.22.0"],\
-          ["@types/lodash", "npm:4.17.16"],\
+          ["@types/lodash.flatten", "npm:4.4.9"],\
           ["@types/node", "npm:22.13.10"],\
           ["@types/qs", "npm:6.9.18"],\
           ["@types/react", "npm:19.0.10"],\
@@ -5303,7 +5313,7 @@ const RAW_RUNTIME_STATE =
           ["framer-motion", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:12.6.2"],\
           ["globals", "npm:15.15.0"],\
           ["jotai", "virtual:97b6fb83b601b76b936a7f339087427a86325eb29de613bafebdcd10a9ad565663d1ab92c8cd912989ad2c8b2660a1b41cad9ebc146117afef28f2bd0de740e5#npm:2.12.2"],\
-          ["lodash", "npm:4.17.21"],\
+          ["lodash.flatten", "npm:4.4.0"],\
           ["prettier", "npm:3.5.3"],\
           ["qs", "npm:6.14.0"],\
           ["react", "npm:19.0.0"],\

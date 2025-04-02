@@ -1634,7 +1634,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/lodash@npm:^4":
+"@types/lodash.flatten@npm:^4":
+  version: 4.4.9
+  resolution: "@types/lodash.flatten@npm:4.4.9"
+  dependencies:
+    "@types/lodash": "npm:*"
+  checksum: 10c0/ef961be273321690a07653dcd8a65d67ce949153053baac879c133055ac08677a01a9404c7bb846c1db4864c3ab1f620388a6a199a26cd3856a21ef490cd6541
+  languageName: node
+  linkType: hard
+
+"@types/lodash@npm:*":
   version: 4.17.16
   resolution: "@types/lodash@npm:4.17.16"
   checksum: 10c0/cf017901b8ab1d7aabc86d5189d9288f4f99f19a75caf020c0e2c77b8d4cead4db0d0b842d009b029339f92399f49f34377dd7c2721053388f251778b4c23534
@@ -3903,17 +3912,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.flatten@npm:^4.4.0":
+  version: 4.4.0
+  resolution: "lodash.flatten@npm:4.4.0"
+  checksum: 10c0/97e8f0d6b61fe4723c02ad0c6e67e51784c4a2c48f56ef283483e556ad01594cf9cec9c773e177bbbdbdb5d19e99b09d2487cb6b6e5dc405c2693e93b125bd3a
+  languageName: node
+  linkType: hard
+
 "lodash.merge@npm:^4.6.2":
   version: 4.6.2
   resolution: "lodash.merge@npm:4.6.2"
   checksum: 10c0/402fa16a1edd7538de5b5903a90228aa48eb5533986ba7fa26606a49db2572bf414ff73a2c9f5d5fd36b31c46a5d5c7e1527749c07cbcf965ccff5fbdf32c506
-  languageName: node
-  linkType: hard
-
-"lodash@npm:^4.17.21":
-  version: 4.17.21
-  resolution: "lodash@npm:4.17.21"
-  checksum: 10c0/d8cbea072bb08655bb4c989da418994b073a608dffa608b09ac04b43a791b12aeae7cd7ad919aa4c925f33b48490b5cfe6c1f71d827956071dae2e7bb3a6b74c
   languageName: node
   linkType: hard
 
@@ -3994,7 +4003,7 @@ __metadata:
     "@emotion/react": "npm:^11.14.0"
     "@emotion/styled": "npm:^11.14.0"
     "@eslint/js": "npm:^9.21.0"
-    "@types/lodash": "npm:^4"
+    "@types/lodash.flatten": "npm:^4"
     "@types/node": "npm:^22.13.10"
     "@types/qs": "npm:^6.9.18"
     "@types/react": "npm:^19.0.10"
@@ -4011,7 +4020,7 @@ __metadata:
     framer-motion: "npm:^12.6.2"
     globals: "npm:^15.15.0"
     jotai: "npm:^2.12.2"
-    lodash: "npm:^4.17.21"
+    lodash.flatten: "npm:^4.4.0"
     prettier: "npm:^3.5.3"
     qs: "npm:^6.14.0"
     react: "npm:^19.0.0"
