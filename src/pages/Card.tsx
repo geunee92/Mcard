@@ -13,6 +13,8 @@ import { useAtomValue } from 'jotai'
 import { userAtom } from '@/atoms/user'
 import { useAlertContext } from '@/contexts/AlertContext'
 import { useCallback } from 'react'
+import Spacing from '@/components/shared/Spacing'
+import Review from '@/components/card/Review'
 
 function Card() {
   const { id = '' } = useParams()
@@ -92,6 +94,12 @@ function Card() {
           <Text typography="t7">{removeHtmlTags(promotion.terms)}</Text>
         </Flex>
       ) : null}
+
+      <Spacing size={1000} />
+
+      <Review />
+
+      <Spacing size={100} />
 
       <FixedBottomButton
         label="1분만에 신청하고 혜택받기"
