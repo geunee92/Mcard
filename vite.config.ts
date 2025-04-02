@@ -1,10 +1,19 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import path from 'path'
+import { visualizer } from 'rollup-plugin-visualizer'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    visualizer({
+      filename: './dist/stats.html', // 분석 결과 파일 경로
+      open: true, // 빌드 완료 시 자동으로 stats.html 열기
+      gzipSize: true, // gzip 크기 표시
+      brotliSize: true, // brotli 크기 표시
+    }),
+  ],
   esbuild: {
     jsxImportSource: '@emotion/react',
     jsxFactory: '_jsx',
