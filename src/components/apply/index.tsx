@@ -9,6 +9,9 @@ import { useAtomValue } from 'jotai'
 import { useParams } from 'react-router-dom'
 import { userAtom } from '@/atoms/user'
 import { APPLY_STATUS } from '@/constants/apply'
+import ProgressBar from '../shared/ProgressBar'
+
+const LAST_STEP = 3
 
 function Apply({ onSubmit }: { onSubmit: (applyValues: ApplyValues) => void }) {
   const user = useAtomValue(userAtom)
@@ -75,6 +78,8 @@ function Apply({ onSubmit }: { onSubmit: (applyValues: ApplyValues) => void }) {
 
   return (
     <div>
+      <ProgressBar progress={(applyValues.step as number) / LAST_STEP} />
+
       {applyValues.step === 0 ? <Terms onNext={handleTermsChange} /> : null}
 
       {applyValues.step === 1 ? (
